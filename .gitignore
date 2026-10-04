@@ -1,0 +1,48 @@
+# Flutter/Dart caches and generated output
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+**/doc/api/
+**/flutter/ephemeral/
+
+# Local tools and operating systems
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+private/
+patient_data/
+backups/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+**/key.properties
+**/local.properties
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Android / Apple generated state
+**/.gradle/
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+**/xcuserdata/
+
+# Application lockfiles SHOULD be committed after dependency resolution.
+# An ignore rule is not a security boundary: inspect every staged file.
